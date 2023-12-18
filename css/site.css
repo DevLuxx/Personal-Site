@@ -1,0 +1,98 @@
+body {
+	display: flex;
+	margin: 0;
+	padding-top: 0;
+	height: 100vh;
+    font-family: 'Kalnia', serif;
+	flex-direction: column;
+    background-color: lightgray;
+}
+
+header {
+	background-color: rgb(73, 119, 73);
+	height: 120px;
+	width: 100%;
+    text-align: center;
+    position: fixed;    
+}
+
+h1 {
+    font-size: 24pt;
+}
+h2 {
+    font-size: 20pt;
+}
+h3 {
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+main {
+	display: flex;
+	width: 100%;
+	flex: 1;
+	padding-top: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+	background-color: rgb(73, 110, 119);
+	height: 60px;
+	width: 100%;
+    text-align: center;
+}
+
+content {
+    margin: 0 auto;
+	width: 80%;
+	height: 100%;   
+}
+
+.blog {
+    display: flex;
+}
+
+.blog div {
+    width: 50%;
+    flex: 1;
+    border: solid 1px black;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.blog div img {
+    width: 400px;
+    height: 400px;
+}
+
+.hometown div {
+    width: 60%;
+    margin: 0 auto;
+}
+
+nav {
+    font-size: 14pt;
+}
+
+nav a {
+    color: white;
+}
+
+section {
+    margin-bottom: 40pt;
+}
+
+.about {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.portfolio {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.portfolio ul {
+    list-style: none;
+}
